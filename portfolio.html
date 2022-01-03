@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my portfolios</h1>
+        <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#play">Play</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+
+    </header>
+    <main>
+        
+        <section class="intro" id="intro">
+            <article class="text">
+                <h2>Hi there, I am Ronghua</h2>
+                <h2>I am a digital desinger and a computer engineer</h2>
+                <h2>Wait, I have something to show you below</h2>
+
+            </article>
+            <img src="./selfie.jpg" alt="myself"> 
+
+        </section>
+
+        <section class="play" id="play">
+            <h2>Let's Play</h2>
+            <h3>1. click button below to change color</h3>
+            <article class="color">
+                
+                <button id="click">click me</button>
+                <button id="reset">reset</button>
+                
+
+                <h2 id="random">This is a random color</h2>
+                <br><br>
+            </article>
+            <h3>2. Ball Bounce</h3>
+            <h3>Move mouse to move the ball</h2>
+                <p id="log"></p>
+            <article class="ball">
+                <div id="circle"></div>
+               
+
+               
+            </article>
+        
+           
+
+        </section>
+
+        <section class="projects" id="projects">
+            <article class="title">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAZlBMVEX///8AACgAAC6eoKjGx8sAADAAACq4ub+PkZvY2NsAACRLTV8HEzYACzP09PV4eYUUHDsAAB7o6etBRFeYmaIAABAAAABYW2tpa3mFh5Hi4uQgJUA3O1GxsrgLFjerrLIAABkpLUdHD3j1AAAA4ElEQVRIie3U0Q6CIBSAYTgVmYICWmIp6Pu/ZGktNXPzuC6q8V8J85tsIIT4fL+XPrwpXgCzYzjptF0ANyC5GGUlXQZ5noyK7ELI9i+L362EgYcfhFqvgdowpXiBhudQcAYcLjESllxEVZWqHPnFg7JlN8Au1TFwzxkMDID2e4KCw3cxMBueAgys2C5bBXUt7W0HdR4jITFghTEAEnsASBm295Qy2C8S4vKmMR344v8RqngYKUQL+/EslIKOEt1Nnqj7qM7mIOWTwhbC/ZluZqBLo0npDQaP+dTNQJ/vL7sCFmQRmbC/8G8AAAAASUVORK5CYII=">
+                <h2>Codecademy Designs</h2>
+            </article>
+            <ol>
+                <li><a href="">practice1</a></li>
+                <li><a href="">practice2</a></li>
+                <li><a href="">practice3</a></li>
+                <li><a href="">practice4</a></li>
+
+            </ol>
+            
+
+
+
+
+        </section>
+        <section class="resume" id="resume">
+            <h2>My Resume and Social Pages</h2>
+            
+            <article class="social">
+                <a href="">Resume</a> 
+                <a href="https://www.linkedin.com/in/ronghua-lin-538b8215b/"><img src="linkedin.png"> </a>
+                <a href="https://github.com/Ronghua-Lin"><img src="github.png"> </a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h2 class="select">Secret</h2>
+        <div class="submit">
+            <form id="form"  >
+                <label for="secret">Enter my phone number to reveal the secret(no dash): </label>
+                <input type="text" id="secret" name="secret" placeholder="123456789" required>
+                <button type="submit">submit</button>
+               
+               
+            </form>
+        </div>
+    </footer>
+   
+    <script src="./portfolio.js" defer></script> 
+
+    
+  
+  
+  <!--<img src="./ronghua.JPG">-->
+</body>
+</html>
