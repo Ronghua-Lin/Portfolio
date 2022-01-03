@@ -98,7 +98,7 @@ function check(event){
  
   if(pw.value ===  '6462071769'){
   
-    ht.style.backgroundImage='url("./ronghua.JPG")';
+    ht.style.backgroundImage='url("./images/ronghua.JPG")';
   
   
  
